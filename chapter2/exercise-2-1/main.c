@@ -27,10 +27,10 @@ int main()
     printf("unsigned int min: %u\n", 0);
     printf("unsigned int max: %u\n", UINT_MAX);
     printf("----------------------\n");
-    printf("signed long int min: %d\n", LONG_MIN);
-    printf("signed long int max: %d\n", LONG_MAX);
+    printf("signed long int min: %ld\n", LONG_MIN);
+    printf("signed long int max: %ld\n", LONG_MAX);
     printf("unsigned long int min: %u\n", 0);
-    printf("unsigned long int max: %u\n", ULONG_MAX);
+    printf("unsigned long int max: %lu\n", ULONG_MAX);
     printf("----------------------\n");
 
     return 0;
